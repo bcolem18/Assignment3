@@ -11,7 +11,7 @@
 using namespace std;
 
 
-
+//Comment test
 double func_1(double x, double intensity)
 {
 	
