@@ -12,6 +12,8 @@ using namespace std;
 
 
 //Comment test
+
+
 double func_1(double x, double intensity)
 {
 	
@@ -59,6 +61,7 @@ int main(int argc, char *argv[])
 		
 	double x= integral(a,b,N,intensity);	
 	cout << x << endl;
+	cout<<"Hello World"<< endl; 
 	}
 	
 	
