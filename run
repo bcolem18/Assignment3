@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm exe
+g++ -O3 -march=native part1.2.cpp -o exe -pthread
+./exe
