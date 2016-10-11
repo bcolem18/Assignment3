@@ -26,7 +26,26 @@ double func_1(double x, double intensity)
 }
 
 
+double func_2(int x, int intensity)
+{
+	for(int i=0; i<(x*intensity); i++)
+	{
+		i++; 
+	}
+	
+	return 1; 
+}
 
+double func_3(int x, int intensity)
+{
+	for(int i=0; i<(x*intensity); i++)
+	{
+		i++; 
+	}
+	return 5; 
+}
+	
+	
 
 
 double integral (double a, double b, int N, int intensity)
@@ -64,7 +83,18 @@ int main(int argc, char *argv[])
 	cout<<"Hello World"<< endl; 
 	}
 	
+	for(int i=0; i<21; i++)
+	{
+		
+		func_2(1, intensity); 
+	}
 	
+		for(int i=0; i<7; i++)
+	{
+		
+		func_3(5, intensity); 
+	
+	}
 	
 	
 
